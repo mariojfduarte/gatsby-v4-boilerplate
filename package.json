@@ -1,31 +1,30 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "gatsby-v4-boilerplate",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
-  "version": "0.1.0",
-  "license": "0BSD",
+  "description": "A boilerplate to kick off any Gatsby project",
+  "version": "1.0.0",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "gatsby develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "clean": "gatsby clean"
   },
   "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.6.0",
+    "@mui/material": "^5.2.5",
+    "@reduxjs/toolkit": "^1.7.1",
     "gatsby": "^4.4.0",
+    "gatsby-plugin-intl": "^0.3.3",
+    "gatsby-plugin-react-helmet": "^5.4.0",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-redux": "^7.2.6"
   },
   "devDependencies": {
     "prettier": "^2.4.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }
